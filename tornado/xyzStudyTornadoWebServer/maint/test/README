@@ -1,0 +1,6 @@
+This directory contains additional tests that are not included in the main
+suite (because e.g. they have extra dependencies, run slowly, or produce
+more output than a simple pass/fail)
+=====
+此目录将包含额外的测试，不包含在主要组件
+(原因例如他们有额外的依赖、运行缓慢，或产生更多的输出比简单的通过/失败)

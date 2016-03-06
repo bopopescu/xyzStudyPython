@@ -1,0 +1,5 @@
+This directory contains tools and scripts that are used in the development
+and maintainance of Tornado itself, but are probably not of interest to
+Tornado users.
+=====
+这个目录中包含的工具和脚本是用来开发和维护Tornado的，但是Tornado用户可能不感兴趣。
