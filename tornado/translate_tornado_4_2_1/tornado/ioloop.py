@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding:utf-8 -*-
 #
 # Copyright 2009 Facebook
 #
@@ -73,9 +74,9 @@ class IOLoop(Configurable):
 
     We use ``epoll`` (Linux) or ``kqueue`` (BSD and Mac OS X) if they
     are available, or else we fall back on select(). If you are
-    implementing a system that needs to handle thousands of
-    simultaneous connections, you should use a system that supports
-    either ``epoll`` or ``kqueue``.
+    implementing（实现） a system that needs to handle thousands of
+    simultaneous（同时） connections, you should use a system that supports
+    either（无论是） ``epoll`` or ``kqueue``.
 
     Example usage for a simple TCP server:
 
@@ -112,7 +113,7 @@ class IOLoop(Configurable):
     .. testoutput::
        :hide:
 
-    By default, a newly-constructed `IOLoop` becomes the thread's current
+    By default（省缺）, a newly-constructed（新结构） `IOLoop` becomes the thread's current
     `IOLoop`, unless there already is a current `IOLoop`. This behavior
     can be controlled with the ``make_current`` argument to the `IOLoop`
     constructor: if ``make_current=True``, the new `IOLoop` will always
@@ -148,11 +149,17 @@ class IOLoop(Configurable):
     @staticmethod
     def instance():
         """Returns a global `IOLoop` instance.
+           =======
+           返回一个全局的IOLoop实例。
 
         Most applications have a single, global `IOLoop` running on the
         main thread.  Use this method to get this instance from
         another thread.  In most other cases, it is better to use `current()`
         to get the current thread's `IOLoop`.
+        ======
+        在很多的实例应用中有一个单一的全局的IOLoop运行在主线程上。
+        在其它线程上使用这个方法获得这个实例。在大多数的其它情况下使用current()更好，
+        如果要获取当前线程的IOLoop。
         """
         if not hasattr(IOLoop, "_instance"):
             with IOLoop._instance_lock:
@@ -172,6 +179,9 @@ class IOLoop(Configurable):
         This is normally not necessary as `instance()` will create
         an `IOLoop` on demand, but you may want to call `install` to use
         a custom subclass of `IOLoop`.
+        ======
+        这个通常不是不要的，因为instance()能满足你的需求。
+        但是你可能会通过调用install去使用一个自定义的IOLoop的子类。
         """
         assert not IOLoop.initialized()
         IOLoop._instance = self
