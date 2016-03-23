@@ -269,6 +269,9 @@ class IOLoop(Configurable):
         If ``all_fds`` is true, all file descriptors registered on the
         IOLoop will be closed (not just the ones created by the
         `IOLoop` itself).
+        ============
+        如果``all_fds``是真实的，在IOLoop注册的所有文件描述符将被关闭
+        （不只是由`IOLoop`自己创造的那些）。
 
         Many applications will only use a single `IOLoop` that runs for the
         entire lifetime of the process.  In that case closing the `IOLoop`
@@ -276,12 +279,20 @@ class IOLoop(Configurable):
         process exits.  `IOLoop.close` is provided mainly for scenarios
         such as unit tests, which create and destroy a large number of
         ``IOLoops``.
+        =============
+        许多程序只会使用单例的`IOLoop`。
+        在这种情况下关闭`IOLoop`是没有必要的，因为当进程结束的时候都会被清理。
+        `IOLoop.close`主要提供的场景比如：单元测试、需要创建和销毁了大量的``IOLoops``。
 
         An `IOLoop` must be completely stopped before it can be closed.  This
         means that `IOLoop.stop()` must be called *and* `IOLoop.start()` must
         be allowed to return before attempting to call `IOLoop.close()`.
         Therefore the call to `close` will usually appear just after
         the call to `start` rather than near the call to `stop`.
+        =============
+        一个`IOLoop`必须可以关闭之前完全停止。
+        这意味着`IOLoop.stop（）`必须被调用，并且`IOLoop.start（）`必须在这这前被调用。
+        因此，调用`close`只是调用`start`之后，而不是在调用`stop`附近出现。
 
         .. versionchanged:: 3.1
            If the `IOLoop` implementation supports non-integer objects
@@ -292,11 +303,16 @@ class IOLoop(Configurable):
 
     def add_handler(self, fd, handler, events):
         """Registers the given handler to receive the given events for ``fd``.
+        =========
+        注册指定的处理程序，以接收``fd``的指定事件。
 
         The ``fd`` argument may either be an integer file descriptor or
         a file-like object with a ``fileno()`` method (and optionally a
         ``close()`` method, which may be called when the `IOLoop` is shut
         down).
+        =========
+        该``fd``参数可以是一个整数文件描述符或用``的fileno一个类似文件的对象（）``方法
+        （和可选的``接近（）``方法，可以称为时候`IOLoop`关闭）。
 
         The ``events`` argument is a bitwise or of the constants
         ``IOLoop.READ``, ``IOLoop.WRITE``, and ``IOLoop.ERROR``.
