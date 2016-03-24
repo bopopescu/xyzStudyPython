@@ -2,7 +2,7 @@
 import Tkinter
 import tkFileDialog
 import ScrolledText
-from lib.utils import fn_timer
+from xyz_lib.utils import fn_timer
 
 
 #在类的外部定义一个新建记事本的函数
