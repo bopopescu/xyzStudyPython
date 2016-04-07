@@ -2,10 +2,10 @@ __author__ = 'xyz'
 import sys
 import socket
 import urllib, urllib2
-from lib import utils
+from xyz_lib import utils
 
 
-class ScanNetwork():
+class ScanNetwork(object):
     """
     plan next:
     op:

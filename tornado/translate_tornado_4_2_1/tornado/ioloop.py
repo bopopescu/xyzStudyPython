@@ -765,21 +765,21 @@ class PollIOLoop(IOLoop):
         self._running = True
 
         # signal.set_wakeup_fd closes a race condition in event loops:
-        # a signal may arrive at the beginning of select/poll/etc
-        # before it goes into its interruptible sleep, so the signal
-        # will be consumed without waking the select.  The solution is
-        # for the (C, synchronous) signal handler to write to a pipe,
-        # which will then be seen by select.
-        #
-        # In python's signal handling semantics, this only matters on the
-        # main thread (fortunately, set_wakeup_fd only works on the main
-        # thread and will raise a ValueError otherwise).
-        #
-        # If someone has already set a wakeup fd, we don't want to
-        # disturb it.  This is an issue for twisted, which does its
-        # SIGCHLD processing in response to its own wakeup fd being
-        # written to.  As long as the wakeup fd is registered on the IOLoop,
-        # the loop will still wake up and everything should work.
+        # signal.set_wakeup_fd 在事件循环的时候关闭竞争条件：
+        # a signal may arrive at the beginning of select/poll/etc before it goes into its interruptible sleep,
+        # 信号可以可以在select/poll/etc进入可中断休眠之前到达。
+        # so the signal will be consumed without waking the select.
+        # 所以信号会被消费掉而避免唤醒select。
+        # The solution is for the (C, 同步) signal handler to write to a pipe, which will then be seen by select.
+        # 该解决方案是为(C, 同步)信号处理程序写入管道， 然后会被select接收到。
+        # In python's signal handling semantics, this only matters on the main thread (fortunately, set_wakeup_fd only works on the main thread and will raise a ValueError otherwise).
+        # 在Python中的信号处理的逻辑，只会在主线程上（幸运的是，set_wakeup_fd只能工作在主线程，将抛出ValueError异常，otherwise）。
+        # If someone has already set a wakeup fd, we don't want to disturb it.
+        # 如果有人已经设置唤醒FD，我们不想中断它。
+        # This is an issue for twisted, which does its SIGCHLD processing in response to its own wakeup fd being written to.
+        # 这是twisted的一个问题，它的SIGCHLD处理程序响应自己唤醒FD被写入。
+        # As long as the wakeup fd is registered on the IOLoop, the loop will still wake up and everything should work.
+        # 只要唤醒FD是在IOLoop注册，轮询仍然会被唤醒并且执行。
         old_wakeup_fd = None
         if hasattr(signal, 'set_wakeup_fd') and os.name == 'posix':
             # requires python 2.6+, unix.  set_wakeup_fd exists but crashes
@@ -799,16 +799,14 @@ class PollIOLoop(IOLoop):
 
         try:
             while True:
-                # Prevent IO event starvation by delaying new callbacks
-                # to the next iteration of the event loop.
+                # Prevent IO event starvation by delaying new callbacks to the next iteration of the event loop.
+                # 通过延迟一个新的回调事件防止在下一次事件轮询中使IO事件处于饥饿状态。
                 with self._callback_lock:
                     callbacks = self._callbacks
                     self._callbacks = []
 
                 # Add any timeouts that have come due to the callback list.
-                # Do not run anything until we have determined which ones
-                # are ready, so timeouts that call add_timeout cannot
-                # schedule anything in this iteration.
+                # Do not run anything until we have determined which ones are ready, so timeouts that call add_timeout cannot schedule anything in this iteration.
                 due_timeouts = []
                 if self._timeouts:
                     now = self.time()
