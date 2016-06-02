@@ -761,6 +761,7 @@ class PollIOLoop(IOLoop):
             return
         old_current = getattr(IOLoop._current, "instance", None)
         IOLoop._current.instance = self
+        # TODO 这里需要了解一下 python thread
         self._thread_ident = thread.get_ident()
         self._running = True
 
@@ -783,18 +784,19 @@ class PollIOLoop(IOLoop):
         old_wakeup_fd = None
         if hasattr(signal, 'set_wakeup_fd') and os.name == 'posix':
             # requires python 2.6+, unix.  set_wakeup_fd exists but crashes
+            # 需要python 2.6+, nuix. set_wakeup_fd存在崩溃的情况。
             # the python process on windows.
             try:
+                # TODO 这里需要了解一下python signal
                 old_wakeup_fd = signal.set_wakeup_fd(self._waker.write_fileno())
                 if old_wakeup_fd != -1:
-                    # Already set, restore previous value.  This is a little racy,
-                    # but there's no clean get_wakeup_fd and in real use the
-                    # IOLoop is just started once at the beginning.
+                    # Already set, restore previous value.  This is a little racy, but there's no clean get_wakeup_fd and in real use the IOLoop is just started once at the beginning.
+                    # 已经设置了恢复以前的值。这有点不好，只因为没有清理get_wakeup_fd然后IOLoop就在开始的时候仅仅实际使用了一次。
                     signal.set_wakeup_fd(old_wakeup_fd)
                     old_wakeup_fd = None
             except ValueError:
-                # Non-main thread, or the previous value of wakeup_fd
-                # is no longer valid.
+                # Non-main thread, or the previous value of wakeup_fd is no longer valid.
+                # 不是主线程，或者之前的值对wakeup_fd不再有效。
                 old_wakeup_fd = None
 
         try:
@@ -806,15 +808,16 @@ class PollIOLoop(IOLoop):
                     self._callbacks = []
 
                 # Add any timeouts that have come due to the callback list.
+                # 把回调列表中所有超时的都记录下来。
                 # Do not run anything until we have determined which ones are ready, so timeouts that call add_timeout cannot schedule anything in this iteration.
+                # 不要运行任何东西直到我们确定了哪些东西是准备好了的了，所以在本次迭代中超时的都无法调用add_timeout。
                 due_timeouts = []
                 if self._timeouts:
                     now = self.time()
                     while self._timeouts:
                         if self._timeouts[0].callback is None:
-                            # The timeout was cancelled.  Note that the
-                            # cancellation check is repeated below for timeouts
-                            # that are cancelled by another timeout or callback.
+                            # The timeout was cancelled.  Note that the cancellation check is repeated below for timeouts that are cancelled by another timeout or callback.
+                            # 取消超时。
                             heapq.heappop(self._timeouts)
                             self._cancellations -= 1
                         elif self._timeouts[0].deadline <= now:
@@ -823,8 +826,8 @@ class PollIOLoop(IOLoop):
                             break
                     if (self._cancellations > 512
                             and self._cancellations > (len(self._timeouts) >> 1)):
-                        # Clean up the timeout queue when it gets large and it's
-                        # more than half cancellations.
+                        # Clean up the timeout queue when it gets large and it's more than half cancellations.
+                        # 当超时队列变大并且超过一半取消对象的时候清理一下。
                         self._cancellations = 0
                         self._timeouts = [x for x in self._timeouts
                                           if x.callback is not None]
@@ -835,30 +838,31 @@ class PollIOLoop(IOLoop):
                 for timeout in due_timeouts:
                     if timeout.callback is not None:
                         self._run_callback(timeout.callback)
-                # Closures may be holding on to a lot of memory, so allow
-                # them to be freed before we go into our poll wait.
+                # Closures may be holding on to a lot of memory, so allow them to be freed before we go into our poll wait.
+                # 闭包会占用大量内存，所以我们在进入轮寻等待之前先把他们释放了。
                 callbacks = callback = due_timeouts = timeout = None
 
                 if self._callbacks:
-                    # If any callbacks or timeouts called add_callback,
-                    # we don't want to wait in poll() before we run them.
+                    # If any callbacks or timeouts called add_callback, we don't want to wait in poll() before we run them.
+                    # 如果任何的回调或超时对象被add_callback调用，我们不想在运行之前在poll()中等待。
                     poll_timeout = 0.0
                 elif self._timeouts:
                     # If there are any timeouts, schedule the first one.
-                    # Use self.time() instead of 'now' to account for time
-                    # spent running callbacks.
+                    # 如果有任何的超时对象，调用第一个。
+                    # Use self.time() instead of 'now' to account for time spent running callbacks.
+                    # 使用 self.time() 代替 'now' 去占用运行回调的时间。
                     poll_timeout = self._timeouts[0].deadline - self.time()
                     poll_timeout = max(0, min(poll_timeout, _POLL_TIMEOUT))
                 else:
                     # No timeouts and no callbacks, so use the default.
+                    # 没有超时对象和回调对象，就使用默认值。
                     poll_timeout = _POLL_TIMEOUT
 
                 if not self._running:
                     break
 
                 if self._blocking_signal_threshold is not None:
-                    # clear alarm so it doesn't fire while poll is waiting for
-                    # events.
+                    # clear alarm so it doesn't fire while poll is waiting for events.
                     signal.setitimer(signal.ITIMER_REAL, 0, 0)
 
                 try:
@@ -878,10 +882,12 @@ class PollIOLoop(IOLoop):
                     signal.setitimer(signal.ITIMER_REAL,
                                      self._blocking_signal_threshold, 0)
 
-                # Pop one fd at a time from the set of pending fds and run
-                # its handler. Since that handler may perform actions on
-                # other file descriptors, there may be reentrant calls to
-                # this IOLoop that update self._events
+                # Pop one fd at a time from the set of pending fds and run its handler.
+                # 弹出一个fd对象从挂起这个文件描述符的时间和他运行的操作对象。
+                # Since that handler may perform actions on other file descriptors,
+                # 因为该处理程序可以在其他文件描述符上执行操作
+                # there may be reentrant calls to this IOLoop that update self._events
+                # 有可能是重新调用IOLoop然后更新self._events
                 self._events.update(event_pairs)
                 while self._events:
                     fd, events = self._events.popitem()

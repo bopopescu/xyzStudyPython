@@ -33,6 +33,8 @@ sock.bind(("", 1123))
 sock.listen(128)
 
 # 创建一个ioloop 实例
+import pdb
+pdb.set_trace()
 io_loop = ioloop.IOLoop.instance()
 # connection_ready 的第一个参数为 sock,即 socket 的返回值
 callback = functools.partial(connection_ready, sock)
