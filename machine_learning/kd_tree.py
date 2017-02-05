@@ -4,6 +4,7 @@
 @author: abc
 @file: kd_tree.py
 @date: 2016-12-28
+@desc: kd树
 """
 __author__ = "abc"
 import math
