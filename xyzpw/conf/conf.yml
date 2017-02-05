@@ -1,0 +1,7 @@
+DATABASE:
+  xyz:
+    master: 'mysql://root:xyz2011@127.0.0.1:3306/xyz'
+    slaves:
+      - 'mysql://root:xyz2011@127.0.0.1:3306/xyz'
+DATABASE_MAP:
+  xyz: 'XYZ_DB'

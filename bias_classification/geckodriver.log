@@ -1,0 +1,247 @@
+1478705058338	geckodriver	INFO	Listening on 127.0.0.1:46699
+1478705059369	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.IVbHbdDQWUWs
+1478705059369	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478705059409	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38280
+1478705060289	Marionette	INFO	Listening on port 38280
+1478705061553	Marionette	INFO	startBrowser ae763f6e-62fb-4e0f-8c1c-e1b2f2d9b739
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: Argument 1 of Window.getComputedStyle does not implement interface Element.
+Full stack: ra@chrome://marionette/content/atom.js:116:628
+W@chrome://marionette/content/atom.js:121:145
+Aa@chrome://marionette/content/atom.js:126:65
+Da@chrome://marionette/content/atom.js:128:344
+atom.getElementText/<@chrome://marionette/content/atom.js:129:91
+atom.getElementText@chrome://marionette/content/atom.js:105:56
+getElementText@chrome://marionette/content/listener.js:1119:10
+dispatch/</req<@chrome://marionette/content/listener.js:188:22
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+1478705141565	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: Argument 1 of Window.getComputedStyle does not implement interface Element.
+Full stack: ra@chrome://marionette/content/atom.js:116:628
+W@chrome://marionette/content/atom.js:121:145
+Aa@chrome://marionette/content/atom.js:126:65
+Da@chrome://marionette/content/atom.js:128:344
+atom.getElementText/<@chrome://marionette/content/atom.js:129:91
+atom.getElementText@chrome://marionette/content/atom.js:105:56
+getElementText@chrome://marionette/content/listener.js:1119:10
+dispatch/</req<@chrome://marionette/content/listener.js:188:22
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: Argument 1 of Window.getComputedStyle does not implement interface Element.
+Full stack: ra@chrome://marionette/content/atom.js:116:628
+W@chrome://marionette/content/atom.js:121:145
+Aa@chrome://marionette/content/atom.js:126:65
+Da@chrome://marionette/content/atom.js:128:344
+atom.getElementText/<@chrome://marionette/content/atom.js:129:91
+atom.getElementText@chrome://marionette/content/atom.js:105:56
+getElementText@chrome://marionette/content/listener.js:1119:10
+dispatch/</req<@chrome://marionette/content/listener.js:188:22
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: el.getBoundingClientRect is not a function
+Full stack: getElementRect@chrome://marionette/content/listener.js:1177:20
+dispatch/</req<@chrome://marionette/content/listener.js:188:22
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: Argument 1 of Window.getComputedStyle does not implement interface Element.
+Full stack: ra@chrome://marionette/content/atom.js:116:628
+W@chrome://marionette/content/atom.js:121:145
+Aa@chrome://marionette/content/atom.js:126:65
+Da@chrome://marionette/content/atom.js:128:344
+atom.getElementText/<@chrome://marionette/content/atom.js:129:91
+atom.getElementText@chrome://marionette/content/atom.js:105:56
+getElementText@chrome://marionette/content/listener.js:1119:10
+dispatch/</req<@chrome://marionette/content/listener.js:188:22
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: Argument 1 of Window.getComputedStyle does not implement interface Element.
+Full stack: ra@chrome://marionette/content/atom.js:116:628
+W@chrome://marionette/content/atom.js:121:145
+Aa@chrome://marionette/content/atom.js:126:65
+Da@chrome://marionette/content/atom.js:128:344
+atom.getElementText/<@chrome://marionette/content/atom.js:129:91
+atom.getElementText@chrome://marionette/content/atom.js:105:56
+getElementText@chrome://marionette/content/listener.js:1119:10
+dispatch/</req<@chrome://marionette/content/listener.js:188:22
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+[Child 3663] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 3663] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+1478705823247	geckodriver	INFO	Listening on 127.0.0.1:41011
+1478705824277	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.RabeK2xKGO4j
+1478705824278	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478705824281	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33651
+1478705824986	Marionette	INFO	Listening on port 33651
+1478705826160	Marionette	INFO	startBrowser 28198ac7-3265-40de-8691-c31f76ad6be5
+1478705906170	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1478705991640	geckodriver	INFO	Listening on 127.0.0.1:57975
+1478705992641	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.5JtQ26wx8bJt
+1478705992642	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478705992646	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37187
+1478705993328	Marionette	INFO	Listening on port 37187
+1478705994623	Marionette	INFO	startBrowser 66aac786-b306-4f7d-940f-202090381606
+1478706379855	geckodriver	INFO	Listening on 127.0.0.1:41601
+1478706380822	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.xYXSOh063SHz
+1478706380823	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478706380867	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34984
+1478706381626	Marionette	INFO	Listening on port 34984
+1478706382816	Marionette	INFO	startBrowser 75b67d28-c5f8-445a-b2bd-07b4923bc533
+1478706393387	geckodriver	INFO	Listening on 127.0.0.1:47316
+1478706394387	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.gJb9GnKJxfpL
+1478706394388	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478706394391	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41700
+1478706395129	Marionette	INFO	Listening on port 41700
+1478706396416	Marionette	INFO	startBrowser 3d2ee0a3-2203-424b-bc36-dee61eafe280
+1478706476427	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+[Child 4526] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 4526] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1478706487319	geckodriver	INFO	Listening on 127.0.0.1:41484
+1478706488318	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.xXRvrums735J
+1478706488319	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478706488335	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38210
+1478706489072	Marionette	INFO	Listening on port 38210
+1478706490214	Marionette	INFO	startBrowser 2fbcfb01-9a47-4f66-bbe4-6d377606649e
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 4690] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 4690] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1478706611492	geckodriver	INFO	Listening on 127.0.0.1:36837
+1478706612493	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.11ANIyHTGTwB
+1478706612494	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478706612497	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45805
+1478706613217	Marionette	INFO	Listening on port 45805
+1478706614374	Marionette	INFO	startBrowser 37cdab14-2e1c-4f80-a0f7-36af71441565
+[Child 4888] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 4888] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+1478706685686	geckodriver	INFO	Listening on 127.0.0.1:46814
+1478706686687	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.acphsuHBhFpQ
+1478706686696	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478706686699	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39359
+1478706687454	Marionette	INFO	Listening on port 39359
+1478706688612	Marionette	INFO	startBrowser 06baf77d-c18e-4a96-abb7-ca6e90fecd35
+[Child 5039] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 5039] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+1478706990230	geckodriver	INFO	Listening on 127.0.0.1:52474
+1478706991230	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.H7qSAI9RIq5g
+1478706991230	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478706991342	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43230
+1478706992053	Marionette	INFO	Listening on port 43230
+1478706993205	Marionette	INFO	startBrowser 5fc9b12c-4020-4784-ae85-476e8362dbee
+[Child 5298] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 5298] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+1478707016437	geckodriver	INFO	Listening on 127.0.0.1:49573
+1478707017437	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.1D6HgA88uHjy
+1478707017439	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478707017442	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34706
+1478707018176	Marionette	INFO	Listening on port 34706
+1478707019323	Marionette	INFO	startBrowser ddb3fdbe-8199-4754-a5a0-0afdb48296f9
+[Child 5424] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+[Child 5424] ###!!! ABORT: Aborting on channel error.: file /build/firefox-Ai5_ZN/firefox-49.0.2+build2/ipc/glue/MessageChannel.cpp, line 2052
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1478707079104	geckodriver	INFO	Listening on 127.0.0.1:52969
+1478707080105	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.o2BD5AR17ArH
+1478707080105	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478707080110	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38445
+1478707080842	Marionette	INFO	Listening on port 38445
+1478707081968	Marionette	INFO	startBrowser 7813941e-4705-49e7-ba55-05c4d94299f9
+1478707161980	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1478710547959	geckodriver	INFO	Listening on 127.0.0.1:33162
+1478710548969	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.l6n4V0dwG86j
+1478710548970	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478710548975	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42273
+1478710549779	Marionette	INFO	Listening on port 42273
+1478710551036	Marionette	INFO	startBrowser 1f1ad5e6-1093-4d11-951e-5e05401e9804
+1478710579734	geckodriver	INFO	Listening on 127.0.0.1:36160
+1478710580733	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.wFN49kc5SfE5
+1478710580734	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1478710580738	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43776
+1478710581452	Marionette	INFO	Listening on port 43776
+1478710582549	Marionette	INFO	startBrowser 50add90b-8c30-4cfc-b50e-3953c120f518
+1478710702427	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error

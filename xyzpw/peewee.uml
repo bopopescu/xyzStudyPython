@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/abc/Projects/xyzpw/lib/peewee/peewee.py</OriginalElement>
+  <nodes>
+    <node x="8542.94090909091" y="640.0">lib.peewee.peewee.DoesNotExist</node>
+    <node x="7510.874242424246" y="380.0">lib.peewee.peewee._BaseConnectionLocal</node>
+    <node x="5799.259090909091" y="520.0">lib.peewee.peewee.Entity</node>
+    <node x="832.0" y="520.0">lib.peewee.peewee.ExecutionContext</node>
+    <node x="3671.598602150548" y="640.0">lib.peewee.peewee.BooleanField</node>
+    <node x="4047.598602150548" y="720.0">lib.peewee.peewee.BigIntegerField</node>
+    <node x="4363.598602150548" y="720.0">lib.peewee.peewee.SmallIntegerField</node>
+    <node x="11115.598602150549" y="720.0">lib.peewee.peewee.ExtQueryResultWrapper</node>
+    <node x="11647.598602150549" y="640.0">lib.peewee.peewee.SelectQuery</node>
+    <node x="7387.440909090909" y="640.0">lib.peewee.peewee._ConnectionLocal</node>
+    <node x="282.0" y="380.0">lib.peewee.peewee.ModelAlias</node>
+    <node x="5328.848602150549" y="720.0">lib.peewee.peewee.ForeignKeyField</node>
+    <node x="4990.848602150548" y="380.0">lib.peewee.peewee.ExceptionWrapper</node>
+    <node x="6677.598602150548" y="520.0">lib.peewee.peewee.Clause</node>
+    <node x="4806.848602150549" y="720.0">lib.peewee.peewee.TimestampField</node>
+    <node x="12439.94090909091" y="640.0">dict</node>
+    <node x="11973.848602150549" y="640.0">lib.peewee.peewee.AliasMap</node>
+    <node x="12617.790909090912" y="520.0">_abcoll.Sequence</node>
+    <node x="876.0" y="640.0">lib.peewee.peewee.Using</node>
+    <node x="9330.874242424246" y="720.0">lib.peewee.peewee.DatabaseError</node>
+    <node x="9103.598602150549" y="810.0">lib.peewee.peewee.NotSupportedError</node>
+    <node x="11491.598602150549" y="810.0">lib.peewee.peewee.DictQueryResultWrapper</node>
+    <node x="28.0" y="520.0">lib.peewee.peewee.savepoint</node>
+    <node x="6941.598602150548" y="640.0">lib.peewee.peewee.Passthrough</node>
+    <node x="2803.348602150548" y="520.0">lib.peewee.peewee.MySQLDatabase</node>
+    <node x="2142.848602150548" y="520.0">lib.peewee.peewee.SqliteDatabase</node>
+    <node x="8652.94090909091" y="520.0">Exception</node>
+    <node x="5263.942424242428" y="520.0">lib.peewee.peewee.Expression</node>
+    <node x="0.0" y="965.0">lib.peewee.peewee.PrefetchResult</node>
+    <node x="8974.874242424246" y="720.0">lib.peewee.peewee.ImproperlyConfigured</node>
+    <node x="5382.848602150549" y="640.0">lib.peewee.peewee.BlobField</node>
+    <node x="10723.598602150549" y="810.0">lib.peewee.peewee.NaiveQueryResultWrapper</node>
+    <node x="7998.098602150549" y="90.0">lib.peewee.peewee.Model</node>
+    <node x="333.0" y="885.0">lib.peewee.peewee.Join</node>
+    <node x="5977.598602150548" y="380.0">lib.peewee.peewee.Node</node>
+    <node x="2815.598602150548" y="640.0">lib.peewee.peewee.FloatField</node>
+    <node x="4612.848602150549" y="90.0">object</node>
+    <node x="580.0" y="520.0">lib.peewee.peewee._atomic</node>
+    <node x="4295.942424242428" y="520.0">lib.peewee.peewee.Field</node>
+    <node x="11103.598602150549" y="810.0">lib.peewee.peewee.TuplesQueryResultWrapper</node>
+    <node x="3095.598602150548" y="720.0">lib.peewee.peewee.TimeField</node>
+    <node x="3323.598602150548" y="640.0">lib.peewee.peewee._BaseFormattedField</node>
+    <node x="4971.942424242428" y="520.0">lib.peewee.peewee._StripParens</node>
+    <node x="4358.848602150549" y="380.0">lib.peewee.peewee.ModelOptions</node>
+    <node x="5106.848602150549" y="640.0">lib.peewee.peewee.FieldProxy</node>
+    <node x="6043.259090909091" y="520.0">lib.peewee.peewee.Window</node>
+    <node x="80.0" y="885.0">__prefetched</node>
+    <node x="8403.44090909091" y="810.0">lib.peewee.peewee.OperationalError</node>
+    <node x="3953.442424242428" y="520.0">lib.peewee.peewee.BaseModel</node>
+    <node x="10327.598602150549" y="720.0">lib.peewee.peewee.ModelQueryResultWrapper</node>
+    <node x="10761.598602150549" y="90.0">_abcoll.Iterable</node>
+    <node x="3105.848602150548" y="380.0">type</node>
+    <node x="7814.874242424246" y="640.0">lib.peewee.peewee.NullHandler</node>
+    <node x="4122.848602150549" y="380.0">lib.peewee.peewee.Proxy</node>
+    <node x="5918.848602150548" y="640.0">lib.peewee.peewee.TextField</node>
+    <node x="2503.598602150548" y="720.0">lib.peewee.peewee.FixedCharField</node>
+    <node x="11691.855415444781" y="90.0">_abcoll.Iterator</node>
+    <node x="7870.874242424246" y="520.0">logging.Handler</node>
+    <node x="10311.598602150549" y="810.0">lib.peewee.peewee.AggregateQueryResultWrapper</node>
+    <node x="9703.598602150549" y="810.0">lib.peewee.peewee.InternalError</node>
+    <node x="7242.874242424246" y="380.0">_threading_local._localbase</node>
+    <node x="4531.942424242428" y="520.0">lib.peewee.peewee.Func</node>
+    <node x="3963.598602150548" y="640.0">lib.peewee.peewee.BareField</node>
+    <node x="11479.598602150549" y="720.0">lib.peewee.peewee.CompoundSelect</node>
+    <node x="10003.598602150549" y="810.0">lib.peewee.peewee.IntegrityError</node>
+    <node x="558.0" y="380.0">lib.peewee.peewee._callable_context_manager</node>
+    <node x="1424.3486021505478" y="380.0">lib.peewee.peewee.CompositeKey</node>
+    <node x="5644.848602150549" y="720.0">lib.peewee.peewee.PrimaryKeyField</node>
+    <node x="9901.874242424246" y="640.0">lib.peewee.peewee.RawQuery</node>
+    <node x="10804.107575757576" y="640.0">lib.peewee.peewee.QueryResultWrapper</node>
+    <node x="12351.94090909091" y="720.0">lib.peewee.peewee.attrdict</node>
+    <node x="2523.598602150548" y="640.0">lib.peewee.peewee.CharField</node>
+    <node x="11927.598602150549" y="520.0">_abcoll.Container</node>
+    <node x="556.0" y="90.0">_abcoll.Callable</node>
+    <node x="5650.848602150548" y="640.0">lib.peewee.peewee.UUIDField</node>
+    <node x="6965.598602150548" y="520.0">lib.peewee.peewee.Param</node>
+    <node x="8382.874242424246" y="720.0">lib.peewee.peewee.InterfaceError</node>
+    <node x="6657.598602150548" y="640.0">lib.peewee.peewee.CommaClause</node>
+    <node x="296.0" y="520.0">lib.peewee.peewee.transaction</node>
+    <node x="6287.259090909091" y="520.0">lib.peewee.peewee.SQL</node>
+    <node x="12412.790909090912" y="520.0">_abcoll.Mapping</node>
+    <node x="1794.8486021505478" y="520.0">lib.peewee.peewee.SqliteQueryCompiler</node>
+    <node x="3363.598602150548" y="720.0">lib.peewee.peewee.DateField</node>
+    <node x="7866.874242424246" y="380.0">logging.Filterer</node>
+    <node x="7751.440909090909" y="720.0">lib.peewee.peewee.InsertQuery</node>
+    <node x="2150.848602150548" y="380.0">lib.peewee.peewee.ResultIterator</node>
+    <node x="3189.848602150548" y="380.0">lib.peewee.peewee._CDescriptor</node>
+    <node x="9435.598602150549" y="810.0">lib.peewee.peewee.DataError</node>
+    <node x="3482.848602150548" y="380.0">lib.peewee.peewee.FieldDescriptor</node>
+    <node x="0.0" y="640.0">lib.peewee.peewee.savepoint_sqlite</node>
+    <node x="3103.348602150548" y="520.0">lib.peewee.peewee.RelationDescriptor</node>
+    <node x="6645.598602150548" y="720.0">lib.peewee.peewee.EnclosedClause</node>
+    <node x="6495.598602150548" y="380.0">lib.peewee.peewee.ReverseRelationDescriptor</node>
+    <node x="8636.94090909091" y="380.0">BaseException</node>
+    <node x="8098.874242424246" y="720.0">lib.peewee.peewee.DeleteQuery</node>
+    <node x="4759.942424242428" y="520.0">lib.peewee.peewee.DQ</node>
+    <node x="11787.598602150549" y="720.0">lib.peewee.peewee.NoopSelectQuery</node>
+    <node x="5624.848602150549" y="810.0">lib.peewee.peewee._AutoPrimaryKeyField</node>
+    <node x="9854.624242424246" y="520.0">lib.peewee.peewee.Query</node>
+    <node x="8967.288748778115" y="640.0">lib.peewee.peewee.PeeweeException</node>
+    <node x="4650.848602150548" y="380.0">lib.peewee.peewee.ObjectIdDescriptor</node>
+    <node x="2490.848602150548" y="380.0">lib.peewee.peewee.Database</node>
+    <node x="11728.598602150549" y="520.0">_abcoll.Sized</node>
+    <node x="4814.848602150549" y="640.0">lib.peewee.peewee.IntegerField</node>
+    <node x="8690.874242424246" y="720.0">lib.peewee.peewee.UpdateQuery</node>
+    <node x="7262.874242424246" y="520.0">_threading_local.local</node>
+    <node x="8079.440909090909" y="810.0">lib.peewee.peewee.ProgrammingError</node>
+    <node x="4044.7652688172147" y="0.0">_abcoll.Hashable</node>
+    <node x="8098.874242424246" y="640.0">lib.peewee.peewee._WriteQuery</node>
+    <node x="2811.598602150548" y="720.0">lib.peewee.peewee.DoubleField</node>
+    <node x="3747.598602150548" y="720.0">lib.peewee.peewee.DateTimeField</node>
+    <node x="4374.848602150549" y="640.0">lib.peewee.peewee.DecimalField</node>
+    <node x="2450.848602150548" y="520.0">lib.peewee.peewee.PostgresqlDatabase</node>
+    <node x="1818.8486021505478" y="380.0">lib.peewee.peewee.QueryCompiler</node>
+    <node x="3798.848602150548" y="380.0">lib.peewee.peewee.DeferredRelation</node>
+    <node x="11170.107575757576" y="640.0">lib.peewee.peewee._SortedFieldList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lib.peewee.peewee.Node" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="6081.598602150548" y="290.0" />
+      <point x="4661.181935483881" y="290.0" />
+      <point x="8.33333333333303" y="15.0" />
+    </edge>
+    <edge source="Exception" target="BaseException">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="dict" target="_abcoll.Sized">
+      <point x="-28.0" y="-15.0" />
+      <point x="12443.94090909091" y="600.0" />
+      <point x="11868.598602150549" y="600.0" />
+      <point x="56.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.transaction" target="lib.peewee.peewee._callable_context_manager">
+      <point x="0.0" y="-15.0" />
+      <point x="428.0" y="490.0" />
+      <point x="699.0" y="490.0" />
+      <point x="-47.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.OperationalError" target="lib.peewee.peewee.DatabaseError">
+      <point x="0.0" y="-15.0" />
+      <point x="8555.44090909091" y="780.0" />
+      <point x="9400.874242424246" y="780.0" />
+      <point x="-70.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.SQL" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="6387.259090909091" y="490.0" />
+      <point x="6119.41678396873" y="490.0" />
+      <point x="37.81818181818198" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.InternalError" target="lib.peewee.peewee.DatabaseError">
+      <point x="0.0" y="-15.0" />
+      <point x="9843.598602150549" y="780.0" />
+      <point x="9540.874242424246" y="780.0" />
+      <point x="70.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._callable_context_manager" target="_abcoll.Callable">
+      <point x="-94.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._SortedFieldList" target="_abcoll.Iterable">
+      <point x="-38.0" y="-15.0" />
+      <point x="11284.107575757576" y="600.0" />
+      <point x="11349.107575757576" y="600.0" />
+      <point x="11349.107575757576" y="210.0" />
+      <point x="10878.93193548388" y="210.0" />
+      <point x="21.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.UpdateQuery" target="lib.peewee.peewee._WriteQuery">
+      <point x="-66.0" y="-15.0" />
+      <point x="8756.874242424246" y="690.0" />
+      <point x="8318.874242424246" y="690.0" />
+      <point x="88.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._SortedFieldList" target="_abcoll.Iterator">
+      <point x="38.0" y="-15.0" />
+      <point x="11360.107575757576" y="360.0" />
+      <point x="11771.855415444781" y="360.0" />
+      <point x="-16.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.RawQuery" target="lib.peewee.peewee.Query">
+      <point x="-60.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._ConnectionLocal" target="lib.peewee.peewee._BaseConnectionLocal">
+      <point x="76.0" y="-15.0" />
+      <point x="7615.440909090909" y="620.0" />
+      <point x="7678.874242424246" y="620.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.FixedCharField" target="lib.peewee.peewee.CharField">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.EnclosedClause" target="lib.peewee.peewee.CommaClause">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.UpdateQuery" target="_abcoll.Iterable">
+      <point x="66.0" y="-15.0" />
+      <point x="8888.874242424246" y="320.0" />
+      <point x="10814.93193548388" y="320.0" />
+      <point x="-42.66666666666606" y="15.0" />
+    </edge>
+    <edge source="type" target="_abcoll.Callable">
+      <point x="-21.333333333333485" y="-15.0" />
+      <point x="3116.5152688172147" y="240.0" />
+      <point x="716.0" y="240.0" />
+      <point x="64.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.PrefetchResult" target="__prefetched">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="dict" target="_abcoll.Iterator">
+      <point x="12.0" y="-15.0" />
+      <point x="12483.94090909091" y="600.0" />
+      <point x="12607.290909090912" y="600.0" />
+      <point x="12607.290909090912" y="140.0" />
+      <point x="11867.855415444781" y="140.0" />
+      <point x="80.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Field" target="_abcoll.Hashable">
+      <point x="-54.0" y="-15.0" />
+      <point x="4349.942424242428" y="430.0" />
+      <point x="3472.348602150548" y="430.0" />
+      <point x="3472.348602150548" y="70.0" />
+      <point x="4124.765268817215" y="70.0" />
+      <point x="-16.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.AggregateQueryResultWrapper" target="lib.peewee.peewee.ModelQueryResultWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.IntegerField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="4950.848602150549" y="610.0" />
+      <point x="4423.578787878792" y="610.0" />
+      <point x="19.636363636363967" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.BaseModel" target="type">
+      <point x="-61.999999999999545" y="-15.0" />
+      <point x="4015.4424242424284" y="490.0" />
+      <point x="3137.848602150548" y="490.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="dict" target="_abcoll.Iterable">
+      <point x="-4.0" y="-15.0" />
+      <point x="12467.94090909091" y="570.0" />
+      <point x="12401.45757575758" y="570.0" />
+      <point x="12401.45757575758" y="150.0" />
+      <point x="10942.93193548388" y="150.0" />
+      <point x="85.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.NaiveQueryResultWrapper" target="lib.peewee.peewee.ExtQueryResultWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="10903.598602150549" y="790.0" />
+      <point x="11172.93193548388" y="790.0" />
+      <point x="-114.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.savepoint_sqlite" target="lib.peewee.peewee.savepoint">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.BigIntegerField" target="lib.peewee.peewee.IntegerField">
+      <point x="0.0" y="-15.0" />
+      <point x="4195.598602150548" y="690.0" />
+      <point x="4842.048602150548" y="690.0" />
+      <point x="-108.80000000000018" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ModelAlias" target="_abcoll.Callable">
+      <point x="-64.0" y="-15.0" />
+      <point x="346.0" y="240.0" />
+      <point x="588.0" y="240.0" />
+      <point x="-64.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._atomic" target="lib.peewee.peewee._callable_context_manager">
+      <point x="0.0" y="-15.0" />
+      <point x="696.0" y="500.0" />
+      <point x="793.0" y="500.0" />
+      <point x="47.0" y="15.0" />
+    </edge>
+    <edge source="object" target="_abcoll.Hashable">
+      <point x="0.0" y="-15.0" />
+      <point x="4652.848602150549" y="70.0" />
+      <point x="4156.765268817215" y="70.0" />
+      <point x="16.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ProgrammingError" target="lib.peewee.peewee.DatabaseError">
+      <point x="0.0" y="-15.0" />
+      <point x="8231.44090909091" y="770.0" />
+      <point x="9354.20757575758" y="770.0" />
+      <point x="-116.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Query" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="9962.624242424246" y="460.0" />
+      <point x="6176.144056696003" y="460.0" />
+      <point x="94.54545454545496" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ExecutionContext" target="lib.peewee.peewee._callable_context_manager">
+      <point x="0.0" y="-15.0" />
+      <point x="984.0" y="500.0" />
+      <point x="887.0" y="500.0" />
+      <point x="141.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DoubleField" target="lib.peewee.peewee.FloatField">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.CommaClause" target="lib.peewee.peewee.Clause">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DecimalField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="4510.848602150549" y="620.0" />
+      <point x="4403.942424242428" y="620.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._BaseFormattedField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="3487.598602150548" y="600.0" />
+      <point x="4345.033333333337" y="600.0" />
+      <point x="-58.90909090909099" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._SortedFieldList" target="object">
+      <point x="-114.0" y="-15.0" />
+      <point x="11208.107575757576" y="590.0" />
+      <point x="11338.107575757576" y="590.0" />
+      <point x="11338.107575757576" y="220.0" />
+      <point x="4684.515268817215" y="220.0" />
+      <point x="31.66666666666697" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.TextField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="6042.848602150548" y="570.0" />
+      <point x="4502.124242424246" y="570.0" />
+      <point x="98.18181818181802" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ExceptionWrapper" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="5142.848602150548" y="340.0" />
+      <point x="4657.848602150549" y="340.0" />
+      <point x="5.0" y="15.0" />
+    </edge>
+    <edge source="logging.Filterer" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="7946.874242424246" y="250.0" />
+      <point x="4674.515268817215" y="250.0" />
+      <point x="21.66666666666697" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.savepoint" target="lib.peewee.peewee._callable_context_manager">
+      <point x="0.0" y="-15.0" />
+      <point x="152.0" y="480.0" />
+      <point x="605.0" y="480.0" />
+      <point x="-141.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.SqliteDatabase" target="lib.peewee.peewee.Database">
+      <point x="0.0" y="-15.0" />
+      <point x="2286.848602150548" y="500.0" />
+      <point x="2530.848602150548" y="500.0" />
+      <point x="-80.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Entity" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="5911.259090909091" y="500.0" />
+      <point x="6081.598602150548" y="500.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.InsertQuery" target="lib.peewee.peewee._WriteQuery">
+      <point x="0.0" y="-15.0" />
+      <point x="7883.440909090909" y="700.0" />
+      <point x="8142.874242424246" y="700.0" />
+      <point x="-88.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.FloatField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="2943.598602150548" y="590.0" />
+      <point x="4325.396969696973" y="590.0" />
+      <point x="-78.54545454545496" y="15.0" />
+    </edge>
+    <edge source="type" target="_abcoll.Hashable">
+      <point x="0.0" y="-15.0" />
+      <point x="3137.848602150548" y="60.0" />
+      <point x="4092.7652688172147" y="60.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.BlobField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="5506.848602150549" y="590.0" />
+      <point x="4462.851515151519" y="590.0" />
+      <point x="58.90909090909099" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Param" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="7073.598602150548" y="470.0" />
+      <point x="6157.234965786912" y="470.0" />
+      <point x="75.63636363636397" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.FieldDescriptor" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="3630.848602150548" y="330.0" />
+      <point x="4641.181935483881" y="330.0" />
+      <point x="-11.66666666666697" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.MySQLDatabase" target="lib.peewee.peewee.Database">
+      <point x="0.0" y="-15.0" />
+      <point x="2943.348602150548" y="500.0" />
+      <point x="2690.848602150548" y="500.0" />
+      <point x="80.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Func" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="4635.942424242428" y="460.0" />
+      <point x="6005.962238514184" y="460.0" />
+      <point x="-75.63636363636397" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DictQueryResultWrapper" target="lib.peewee.peewee.ExtQueryResultWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="11667.598602150549" y="790.0" />
+      <point x="11402.265268817213" y="790.0" />
+      <point x="114.66666666666606" y="15.0" />
+    </edge>
+    <edge source="_threading_local.local" target="_threading_local._localbase">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ExtQueryResultWrapper" target="lib.peewee.peewee.QueryResultWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="11287.598602150549" y="700.0" />
+      <point x="11044.107575757576" y="700.0" />
+      <point x="80.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.SelectQuery" target="lib.peewee.peewee.Query">
+      <point x="-99.0" y="-15.0" />
+      <point x="11680.598602150549" y="580.0" />
+      <point x="10034.624242424246" y="580.0" />
+      <point x="72.0" y="15.0" />
+    </edge>
+    <edge source="dict" target="_abcoll.Sequence">
+      <point x="20.0" y="-15.0" />
+      <point x="12491.94090909091" y="610.0" />
+      <point x="12713.790909090912" y="610.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Using" target="lib.peewee.peewee.ExecutionContext">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.QueryResultWrapper" target="object">
+      <point x="-120.0" y="-15.0" />
+      <point x="10844.107575757576" y="620.0" />
+      <point x="10793.20757575758" y="620.0" />
+      <point x="10793.20757575758" y="230.0" />
+      <point x="4681.181935483881" y="230.0" />
+      <point x="28.33333333333303" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._BaseConnectionLocal" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="7678.874242424246" y="260.0" />
+      <point x="4671.181935483881" y="260.0" />
+      <point x="18.33333333333303" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._CDescriptor" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="3325.848602150548" y="320.0" />
+      <point x="4637.848602150549" y="320.0" />
+      <point x="-15.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.NullHandler" target="logging.Handler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.CompositeKey" target="_abcoll.Hashable">
+      <point x="-68.0" y="-15.0" />
+      <point x="1492.3486021505478" y="50.0" />
+      <point x="4060.7652688172147" y="50.0" />
+      <point x="-80.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.QueryResultWrapper" target="_abcoll.Sized">
+      <point x="120.0" y="-15.0" />
+      <point x="11084.107575757576" y="610.0" />
+      <point x="11756.598602150549" y="610.0" />
+      <point x="-56.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.SelectQuery" target="_abcoll.Sized">
+      <point x="33.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DoesNotExist" target="Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.AliasMap" target="_abcoll.Container">
+      <point x="-90.0" y="-15.0" />
+      <point x="12003.848602150549" y="620.0" />
+      <point x="12027.598602150549" y="620.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.CompositeKey" target="object">
+      <point x="68.0" y="-15.0" />
+      <point x="1628.3486021505478" y="270.0" />
+      <point x="4621.181935483881" y="270.0" />
+      <point x="-31.66666666666697" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DataError" target="lib.peewee.peewee.DatabaseError">
+      <point x="0.0" y="-15.0" />
+      <point x="9559.598602150549" y="790.0" />
+      <point x="9494.20757575758" y="790.0" />
+      <point x="23.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DeleteQuery" target="lib.peewee.peewee._WriteQuery">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.PostgresqlDatabase" target="lib.peewee.peewee.Database">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="dict" target="_abcoll.Container">
+      <point x="-20.0" y="-15.0" />
+      <point x="12451.94090909091" y="590.0" />
+      <point x="12094.265268817213" y="590.0" />
+      <point x="66.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.SelectQuery" target="_abcoll.Iterable">
+      <point x="-33.0" y="-15.0" />
+      <point x="11746.598602150549" y="600.0" />
+      <point x="11718.098602150549" y="600.0" />
+      <point x="11718.098602150549" y="200.0" />
+      <point x="10900.265268817213" y="200.0" />
+      <point x="42.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DQ" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="4855.942424242428" y="470.0" />
+      <point x="6024.871329423275" y="470.0" />
+      <point x="-56.727272727272975" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.BareField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="4087.598602150548" y="620.0" />
+      <point x="4384.306060606064" y="620.0" />
+      <point x="-19.636363636363967" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DateField" target="lib.peewee.peewee._BaseFormattedField">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.SelectQuery" target="_abcoll.Iterator">
+      <point x="99.0" y="-15.0" />
+      <point x="11878.598602150549" y="610.0" />
+      <point x="11907.098602150549" y="610.0" />
+      <point x="11907.098602150549" y="360.0" />
+      <point x="11803.855415444781" y="360.0" />
+      <point x="16.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DateTimeField" target="lib.peewee.peewee._BaseFormattedField">
+      <point x="0.0" y="-15.0" />
+      <point x="3887.598602150548" y="700.0" />
+      <point x="3596.9319354838813" y="700.0" />
+      <point x="109.33333333333348" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.InterfaceError" target="lib.peewee.peewee.PeeweeException">
+      <point x="0.0" y="-15.0" />
+      <point x="8526.874242424246" y="700.0" />
+      <point x="9016.622082111451" y="700.0" />
+      <point x="-98.66666666666606" y="15.0" />
+    </edge>
+    <edge source="_threading_local._localbase" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="7366.874242424246" y="270.0" />
+      <point x="4667.848602150549" y="270.0" />
+      <point x="15.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Clause" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="6789.598602150548" y="480.0" />
+      <point x="6138.325874877821" y="480.0" />
+      <point x="56.727272727272975" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.attrdict" target="dict">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.SmallIntegerField" target="lib.peewee.peewee.IntegerField">
+      <point x="0.0" y="-15.0" />
+      <point x="4519.598602150548" y="700.0" />
+      <point x="4896.448602150549" y="700.0" />
+      <point x="-54.399999999999636" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.FieldProxy" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="5234.848602150549" y="600.0" />
+      <point x="4443.215151515155" y="600.0" />
+      <point x="39.272727272727025" y="15.0" />
+    </edge>
+    <edge source="dict" target="_abcoll.Hashable">
+      <point x="28.0" y="-15.0" />
+      <point x="12499.94090909091" y="620.0" />
+      <point x="12820.290909090912" y="620.0" />
+      <point x="12820.290909090912" y="50.0" />
+      <point x="4220.765268817215" y="50.0" />
+      <point x="80.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.SqliteQueryCompiler" target="lib.peewee.peewee.QueryCompiler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Window" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="6155.259090909091" y="500.0" />
+      <point x="6100.507693059639" y="500.0" />
+      <point x="18.90909090909099" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.AliasMap" target="object">
+      <point x="-30.0" y="-15.0" />
+      <point x="12063.848602150549" y="610.0" />
+      <point x="12138.098602150549" y="610.0" />
+      <point x="12138.098602150549" y="190.0" />
+      <point x="4687.848602150549" y="190.0" />
+      <point x="35.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._AutoPrimaryKeyField" target="lib.peewee.peewee.PrimaryKeyField">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ModelQueryResultWrapper" target="lib.peewee.peewee.QueryResultWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="10507.598602150549" y="700.0" />
+      <point x="10884.107575757576" y="700.0" />
+      <point x="-80.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ObjectIdDescriptor" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="4810.848602150548" y="350.0" />
+      <point x="4654.515268817215" y="350.0" />
+      <point x="1.6666666666669698" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.QueryResultWrapper" target="_abcoll.Iterable">
+      <point x="-40.0" y="-15.0" />
+      <point x="10924.107575757576" y="620.0" />
+      <point x="10993.107575757576" y="620.0" />
+      <point x="10993.107575757576" y="330.0" />
+      <point x="10857.598602150549" y="330.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.QueryResultWrapper" target="_abcoll.Iterator">
+      <point x="40.0" y="-15.0" />
+      <point x="11004.107575757576" y="350.0" />
+      <point x="11739.855415444781" y="350.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Proxy" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="4230.848602150549" y="350.0" />
+      <point x="4647.848602150549" y="350.0" />
+      <point x="-5.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._SortedFieldList" target="_abcoll.Container">
+      <point x="114.0" y="-15.0" />
+      <point x="11436.107575757576" y="620.0" />
+      <point x="11960.93193548388" y="620.0" />
+      <point x="-66.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Expression" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="5391.942424242428" y="490.0" />
+      <point x="6062.689511241457" y="490.0" />
+      <point x="-18.90909090909099" y="15.0" />
+    </edge>
+    <edge source="logging.Handler" target="logging.Filterer">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ForeignKeyField" target="lib.peewee.peewee.IntegerField">
+      <point x="0.0" y="-15.0" />
+      <point x="5476.848602150549" y="700.0" />
+      <point x="5005.248602150548" y="700.0" />
+      <point x="54.399999999999636" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ResultIterator" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="2294.848602150548" y="290.0" />
+      <point x="4627.848602150549" y="290.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+    <edge source="BaseException" target="_abcoll.Iterable">
+      <point x="0.0" y="-15.0" />
+      <point x="8704.94090909091" y="310.0" />
+      <point x="10793.598602150549" y="310.0" />
+      <point x="-64.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.RawQuery" target="_abcoll.Iterable">
+      <point x="60.0" y="-15.0" />
+      <point x="10081.124242424246" y="330.0" />
+      <point x="10836.265268817213" y="330.0" />
+      <point x="-21.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Model" target="_abcoll.Hashable">
+      <point x="9.094947017729282E-13" y="-15.0" />
+      <point x="8106.09860215055" y="60.0" />
+      <point x="4188.765268817215" y="60.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._ConnectionLocal" target="_threading_local.local">
+      <point x="-76.0" y="-15.0" />
+      <point x="7463.440909090909" y="620.0" />
+      <point x="7366.874242424246" y="620.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="BaseException" target="_abcoll.Iterator">
+      <point x="45.33333333333394" y="-15.0" />
+      <point x="8750.274242424244" y="340.0" />
+      <point x="11707.855415444781" y="340.0" />
+      <point x="-80.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ModelAlias" target="object">
+      <point x="64.0" y="-15.0" />
+      <point x="474.0" y="250.0" />
+      <point x="4614.515268817215" y="250.0" />
+      <point x="-38.33333333333303" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ModelOptions" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="4494.848602150549" y="360.0" />
+      <point x="4651.181935483881" y="360.0" />
+      <point x="-1.6666666666669698" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._WriteQuery" target="lib.peewee.peewee.Query">
+      <point x="0.0" y="-15.0" />
+      <point x="8230.874242424246" y="620.0" />
+      <point x="9890.624242424246" y="620.0" />
+      <point x="-72.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.TimeField" target="lib.peewee.peewee._BaseFormattedField">
+      <point x="0.0" y="-15.0" />
+      <point x="3219.598602150548" y="700.0" />
+      <point x="3378.2652688172147" y="700.0" />
+      <point x="-109.33333333333348" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Field" target="lib.peewee.peewee.Node">
+      <point x="54.0" y="-15.0" />
+      <point x="4457.942424242428" y="450.0" />
+      <point x="5987.053147605093" y="450.0" />
+      <point x="-94.54545454545496" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.BooleanField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="3807.598602150548" y="610.0" />
+      <point x="4364.669696969701" y="610.0" />
+      <point x="-39.272727272727025" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._callable_context_manager" target="object">
+      <point x="94.0" y="-15.0" />
+      <point x="840.0" y="260.0" />
+      <point x="4617.848602150549" y="260.0" />
+      <point x="-35.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.IntegrityError" target="lib.peewee.peewee.DatabaseError">
+      <point x="0.0" y="-15.0" />
+      <point x="10147.598602150549" y="770.0" />
+      <point x="9587.540909090912" y="770.0" />
+      <point x="116.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.CharField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="2647.598602150548" y="580.0" />
+      <point x="4305.76060606061" y="580.0" />
+      <point x="-98.18181818181802" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Database" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="2610.848602150548" y="300.0" />
+      <point x="4631.181935483881" y="300.0" />
+      <point x="-21.66666666666697" y="15.0" />
+    </edge>
+    <edge source="dict" target="_abcoll.Mapping">
+      <point x="4.0" y="-15.0" />
+      <point x="12475.94090909091" y="590.0" />
+      <point x="12504.790909090912" y="590.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee._StripParens" target="lib.peewee.peewee.Node">
+      <point x="0.0" y="-15.0" />
+      <point x="5107.942424242428" y="480.0" />
+      <point x="6043.780420332366" y="480.0" />
+      <point x="-37.81818181818198" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ImproperlyConfigured" target="lib.peewee.peewee.PeeweeException">
+      <point x="0.0" y="-15.0" />
+      <point x="9142.874242424246" y="700.0" />
+      <point x="9115.288748778115" y="700.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.NotSupportedError" target="lib.peewee.peewee.DatabaseError">
+      <point x="0.0" y="-15.0" />
+      <point x="9259.598602150549" y="790.0" />
+      <point x="9447.540909090912" y="790.0" />
+      <point x="-23.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DeferredRelation" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="3950.848602150548" y="340.0" />
+      <point x="4644.515268817215" y="340.0" />
+      <point x="-8.33333333333303" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.TimestampField" target="lib.peewee.peewee.IntegerField">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.PrimaryKeyField" target="lib.peewee.peewee.IntegerField">
+      <point x="0.0" y="-15.0" />
+      <point x="5792.848602150549" y="690.0" />
+      <point x="5059.648602150548" y="690.0" />
+      <point x="108.80000000000018" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.BaseModel" target="_abcoll.Iterable">
+      <point x="62.000000000000455" y="-15.0" />
+      <point x="4139.442424242428" y="440.0" />
+      <point x="5305.348602150548" y="440.0" />
+      <point x="5305.348602150548" y="300.0" />
+      <point x="10772.265268817213" y="300.0" />
+      <point x="-85.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.PeeweeException" target="Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="9115.288748778115" y="610.0" />
+      <point x="8730.94090909091" y="610.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="type" target="object">
+      <point x="21.333333333333485" y="-15.0" />
+      <point x="3159.181935483881" y="310.0" />
+      <point x="4634.515268817215" y="310.0" />
+      <point x="-18.33333333333303" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.NoopSelectQuery" target="lib.peewee.peewee.SelectQuery">
+      <point x="0.0" y="-15.0" />
+      <point x="11935.598602150549" y="700.0" />
+      <point x="11845.598602150549" y="700.0" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.Passthrough" target="lib.peewee.peewee.Param">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.TuplesQueryResultWrapper" target="lib.peewee.peewee.ExtQueryResultWrapper">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.QueryCompiler" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="1958.8486021505478" y="280.0" />
+      <point x="4624.515268817215" y="280.0" />
+      <point x="-28.33333333333303" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.ReverseRelationDescriptor" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="6683.598602150548" y="280.0" />
+      <point x="4664.515268817215" y="280.0" />
+      <point x="11.66666666666697" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.DatabaseError" target="lib.peewee.peewee.PeeweeException">
+      <point x="0.0" y="-15.0" />
+      <point x="9470.874242424246" y="700.0" />
+      <point x="9213.955415444783" y="700.0" />
+      <point x="98.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.CompoundSelect" target="lib.peewee.peewee.SelectQuery">
+      <point x="0.0" y="-15.0" />
+      <point x="11623.598602150549" y="700.0" />
+      <point x="11713.598602150549" y="700.0" />
+      <point x="-66.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.RelationDescriptor" target="lib.peewee.peewee.FieldDescriptor">
+      <point x="0.0" y="-15.0" />
+      <point x="3263.348602150548" y="500.0" />
+      <point x="3630.848602150548" y="500.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="BaseException" target="object">
+      <point x="-45.33333333333394" y="-15.0" />
+      <point x="8659.607575757576" y="240.0" />
+      <point x="4677.848602150549" y="240.0" />
+      <point x="25.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.AliasMap" target="_abcoll.Iterator">
+      <point x="90.0" y="-15.0" />
+      <point x="12183.848602150549" y="620.0" />
+      <point x="12160.098602150549" y="620.0" />
+      <point x="12160.098602150549" y="170.0" />
+      <point x="11835.855415444781" y="170.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.UUIDField" target="lib.peewee.peewee.Field">
+      <point x="0.0" y="-15.0" />
+      <point x="5774.848602150548" y="580.0" />
+      <point x="4482.487878787883" y="580.0" />
+      <point x="78.54545454545496" y="15.0" />
+    </edge>
+    <edge source="dict" target="object">
+      <point x="-12.0" y="-15.0" />
+      <point x="12459.94090909091" y="580.0" />
+      <point x="12227.098602150549" y="580.0" />
+      <point x="12227.098602150549" y="160.0" />
+      <point x="4691.181935483881" y="160.0" />
+      <point x="38.33333333333303" y="15.0" />
+    </edge>
+    <edge source="lib.peewee.peewee.AliasMap" target="_abcoll.Iterable">
+      <point x="30.0" y="-15.0" />
+      <point x="12123.848602150549" y="620.0" />
+      <point x="12149.098602150549" y="620.0" />
+      <point x="12149.098602150549" y="180.0" />
+      <point x="10921.598602150549" y="180.0" />
+      <point x="64.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9229655011291954" x="4780.39491891527" y="283.7872728193186" />
+  <SelectedNodes>
+    <node>lib.peewee.peewee._SortedFieldList</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+
