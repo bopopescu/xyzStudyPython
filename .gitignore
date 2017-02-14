@@ -5,3 +5,4 @@ tensorflow/models/
 tensorflow/tensorflow-zh/
 tensorflow/.ipynb_checkpoints/
 matplotlib/.ipynb_checkpoints/
+tensorflow/MNIST_data/*
