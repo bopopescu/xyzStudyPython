@@ -68,8 +68,8 @@ with tf.name_scope("train"):
     train_step = tf.train.GradientDescentOptimizer(0.1).minimize(loss)
 
 with tf.Session() as sess:
-    merged = tf.merge_all_summaries()
-    writer = tf.train.SummaryWriter("logs/", sess.graph)
+    merged = tf.summary.merge_all()
+    writer = tf.summary.FileWriter("logs/", sess.graph)
     sess.run(tf.global_variables_initializer())
 
     for i in range(1000):
